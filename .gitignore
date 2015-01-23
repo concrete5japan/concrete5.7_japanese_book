@@ -18,7 +18,7 @@ error_log
 .ftpquota
 
 #ignore everything but the index.html
-/application/config/database.php
+/application/config/*
 /application/files/*
 !/application/files/.gitkeep
 !/application/files/.gitignore
