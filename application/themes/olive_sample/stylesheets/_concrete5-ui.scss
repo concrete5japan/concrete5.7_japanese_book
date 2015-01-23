@@ -1,0 +1,38 @@
+//
+// concrete5 user interface
+//
+
+//hover over areas
+#ccm-menu-highlighter, 
+#ccm-menu-click-proxy
+{
+    margin-top: -49px;
+}
+
+//edit block menu
+#ccm-popover-menu-container {
+    
+    .ccm-edit-mode-block-menu,
+    .popover {
+        margin-top: -30px;
+    }
+}
+
+
+// redactor toolbar
+#ccm-inline-toolbar-container {
+    margin-top: -49px !important; 
+
+    .redactor_toolbar.ccm-inline-toolbar {
+        
+        .ccm-inline-toolbar-button {
+            button {
+                margin: 0;
+            }
+        }
+    }
+
+    &.ccm-inline-toolbar-affixed{
+        margin-top: 2px !important; 
+    }
+}

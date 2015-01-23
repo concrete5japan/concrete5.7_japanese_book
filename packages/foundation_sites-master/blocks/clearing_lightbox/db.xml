@@ -1,0 +1,11 @@
+<schema version="0.3">
+	<table name="btClearingLightbox">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		<field name="fsID" type="I">
+			<unsigned />
+		</field>
+	</table>
+</schema>

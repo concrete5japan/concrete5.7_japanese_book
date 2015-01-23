@@ -1,0 +1,25 @@
+#ccm-menu-highlighter,
+#ccm-menu-click-proxy {
+  margin-top: -49px;
+}
+
+#ccm-popover-menu-container .ccm-edit-mode-block-menu,
+#ccm-popover-menu-container .popover {
+  margin-top: -30px;
+}
+
+#ccm-inline-toolbar-container {
+  margin-top: -49px !important;
+}
+#ccm-inline-toolbar-container .redactor_toolbar.ccm-inline-toolbar .ccm-inline-toolbar-button button {
+  margin: 0;
+}
+#ccm-inline-toolbar-container.ccm-inline-toolbar-affixed {
+  margin-top: 2px !important;
+}
+
+.ccm-panel-content-inner {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: content-box;
+}
