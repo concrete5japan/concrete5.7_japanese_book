@@ -17,6 +17,7 @@
 </head>
 <body>
 
+<div class="<?=$c->getPageWrapperClass()?>">
 <div id="page" class="page">
 	
 	<div id="masthead" class="row">

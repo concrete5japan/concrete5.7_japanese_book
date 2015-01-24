@@ -13,11 +13,13 @@
 	
 	<link rel="stylesheet" href="<?php echo $this->getThemePath(); ?>/stylesheets/foundation.min.css">
 	<link rel="stylesheet" href="<?php echo $this->getThemePath(); ?>/main.css">
+	<link rel="stylesheet" href="<?php echo $this->getThemePath(); ?>/stylesheets/concrete5-ui.css">
 
 	<script src="<?php echo $this->getThemePath(); ?>/javascripts/modernizr.foundation.js"></script>
 </head>
 <body>
 
+<div class="<?=$c->getPageWrapperClass()?>">
 <div id="page" class="page">
 	
 	<div id="masthead" class="row">
