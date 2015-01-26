@@ -1,9 +1,7 @@
 /**
  * Override Foundation base styles
  */
-body{
-	position: inherit;
-}
+
 .page {
 	position: relative;
 }
