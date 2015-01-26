@@ -9,7 +9,7 @@ use \Concrete\Core\Block\BlockController;
 
 defined('C5_EXECUTE') or die("Access Denied.");
 
-class LunchMenuBlockController extends BlockController {
+class Controller extends BlockController {
 	
 	protected $btName = 'ランチメニュー用';
 	protected $btDescription = '';
