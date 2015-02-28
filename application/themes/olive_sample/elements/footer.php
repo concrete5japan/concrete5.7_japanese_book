@@ -4,22 +4,22 @@
 			<p class="right scroll-page-top"><a href="#page">ページの先頭へ</a></p>
 		</div>
 	</div>
-	
+
 	<footer id="pageFooter" class="row" role="contentinfo">
 		<div class="twelve columns">
 			<hr />
 			<div class="row">
 				<div class="seven columns">
-					<?php 
+					<?php
 					$a = new GlobalArea('Footer');
 					$a->display();
 					?>
 				</div>
 				<div class="five columns">
-					<p class="copyright right"><small>Copyright &copy; <?php echo date('Y')?> <?php echo SITE?></small></p>
+					<p class="copyright right"><small>Copyright &copy; <?php echo date('Y');?> <?php echo Config::get('concrete.site');?></small></p>
 				</div>
 			</div>
-		</div> 
+		</div>
 	</footer>
 
 </div>
